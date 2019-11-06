@@ -1,0 +1,416 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ header {
+  padding: 156px 0 100px;
+  box-shadow: 5px 5px 5px rgb(172, 171, 171);
+}
+
+section {
+  padding: 150px 0;
+  box-shadow: 5px 5px 5px rgb(172, 171, 171);
+}
+
+footer{
+  margin-top: 70px;
+  background: #FF7B00;
+}
+
+.bg-primary {
+  background-color: #ff7b00!important;
+  padding: 50px;
+  z-index: 1;
+}
+
+.bg-dark {
+  background-color: #ff7b00!important;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+#search {
+  width: 400px;
+}
+#search-input{
+  width: 400px;
+  box-shadow: 2px 2px 8px #ac6311;
+  align-self: center;;
+}
+
+/*------------------------------------*/
+
+body {
+  font-size: 14px;
+  line-height: 1.462;
+  font-family: Arial, sans-serif;
+  font-style: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/*----------------------------------------------------------*/
+
+@font-face {
+  font-family: 'RoadRage';
+  src: local(fonts/Road_Rage);
+}
+
+.beers .beer {
+  background: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+#results, .beers{
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.beer-wrapper{
+  display: block;
+  width: 300px;
+  border: 2px solid #b6b6b6;
+  margin: 70px 10px 0 10px ;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 2px 1px 4px rgb(175, 175, 175);
+}
+.beer-wrapper:hover{
+  box-shadow: 6px 6px 9px grey;
+  block-size: 110%;
+}
+.beer-wrapper::after,.beer-wrapper::before{
+margin: 0 !important;
+}
+.beer-wrapper img {
+  width: 26%;
+  display: block;
+  margin: 30px auto;
+}
+ h1{
+   font-weight: bold;
+   font-family: Arial, sans-serif;
+   
+ }
+ h3{
+  text-align: center;
+  padding: 8px 10px;
+  color: #f87d19;
+  height: 50px;
+  font-size: 2.1em;
+  overflow: hidden;
+}
+ h4{
+  text-align: center;
+  font-size: 1.3em;
+  color: #7a7979;
+}
+.fix-container{
+  min-height: 553px;
+}
+
+input.edita{
+  position: absolute;
+  top: 51px;
+  right:1px;
+  
+}
+
+.fa-star-o{
+  color: #191919;
+  font-size: 1.4em;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+.icone-ativo{
+  color: #f87d19 !important;
+}
+
+img[src$="keg.png"]{
+  width: 51%;
+}
+
+img[src$="24.png"]{
+  width: 52%;
+}
+
+img[src$="54.png"]{
+  width: 59%;
+}
+
+img[src$="73.png"]{
+  width: 59%;
+}
+/* #######################################################*/
+
+
+
+.active-star {
+  color: #f18810 !important;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 2%;
+  background: #000;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 18px;
+}
+
+.tab_item {
+  background: white;
+  cursor: pointer;
+  color: #ff7b00;
+}
+
+.active {
+  background: #ff7b00;
+  color: #fff;
+}
+
+.pop-up {
+  display: none;
+  position: fixed;
+  background:#fff;
+  color: #000;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  padding: 2%;
+  width: 600px;
+  top: 45%;
+  z-index: 1;
+  border-radius: 13px;
+}
+
+.window-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(224, 224, 224, 0.9);
+  display: none;
+}
+
+.title {
+  color: #ffa90a;
+  background: none;
+  text-align: left;
+  border-bottom: 2px solid #ff7b00;
+  padding-left: 0;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  
+}
+
+.favourites_item {
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+}
+
+.favourites_close {
+  float: right;
+  cursor: pointer;
+}
+
+
+
+
+/*----------MEU ESTILO--------------*/
+
+.pop-up::after, .pop-up::before{
+  display: table;
+  content: '';
+  clear: both;
+}
+.bg-button{
+background:transparent;
+color: #ff7b00;
+border: 1px solid #ff7b00;
+}
+
+.pop-up img{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin: auto;
+}
+.pop-up img[src$="keg.png"]{
+  margin-top: 25px;
+  width: 25%;
+}
+
+.edita-form{
+  max-width: 100%;
+}
+.pop-up ul{
+  width: 100%;
+  list-style:none;
+  padding-left: 0 !important;
+}
+.pop-up li::before{
+  content: '\2713';
+  color: #FF7B00;
+  display: inline-block;
+  margin-right: 10px;
+}
+.edita-pop{
+  float: right;
+  width: 360px;
+}
+
+.esconde{
+  display: none;
+}
+
+.nav-item a{
+  font-size: 1rem;
+  color: #fff !important;
+}
+.ativa_estrela{
+  color: #ff7b00;
+}
+.up {
+  position: fixed;
+  background:#fff;
+  color: #000;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  padding: 2%;
+  width: 600px;
+  top: 45%;
+  z-index: 1;
+}
+
+.up ul{
+  width: 100%;
+  list-style:none;
+  padding-left: 0 !important;
+}
+.up img{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin: auto;
+}
+.up img[src$="keg.png"]{
+  margin-top: 25px;
+  width: 25%;
+}
+.up li::before{
+  content: '\2713';
+  color: #FF7B00;
+  display: inline-block;
+  margin-right: 10px;
+}
+.edita-pop{
+  float: right;
+  width: 360px;
+}
+.up::after, .up::before{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.modal-container{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background: #ff7b00;
+  z-index: 0;
+  display: none;
+}
+
+.meumodal{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px){
+  .pop-up {
+    width: 300px;
+    top:50%;
+    border-radius: 20px;
+  }
+  .pop-up img{
+    float: none;
+  }
+  .edita-pop{
+    width: 280px;
+    margin: 0 auto;
+    display: block;
+  }
+  .edita-pop ul{
+    margin: 0 auto;
+    width: 290px;
+    display: block;
+  }
+  .edita-pop li, .edita-pop p{
+    padding: 5px 15px;
+  }
+  .beer-wrapper{
+    margin: 70px auto;
+  }
+  .title{
+    text-align: center;
+  }
+  
+
+  .up {
+    width: 300px;
+    top:50%;
+  }
+  .up img{
+    float: none;
+  }
+  .edita-pop{
+    width: 280px;
+    margin: 0 auto;
+    display: block;
+  }
+  .edita-pop ul{
+    margin: 0 auto;
+    width: 290px;
+    display: block;
+  }
+  .edita-pop li, .edita-pop p{
+    padding: 5px 15px;
+  }
+  .beer-wrapper{
+    margin: 70px auto;
+  }
+  .title{
+    text-align: center;
+  }
+}
